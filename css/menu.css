@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    margin:100px auto;
+    width:1230px;
+    height: 230px;
+    background:seagreen;
+
+}
+.contenedor{
+    width: 200px;
+    height: 230px;
+    float: left;
+    transition: height .4s;
+
+
+}
+#uno{
+    background-color: #7e57c2;
+}
+#dos{
+    background-color: #5c6bc0;
+}
+#tres{
+    background-color: #42a5f5;
+}
+#cuatro{
+    background-color: #29b6f6;
+}
+#cinco{
+    background-color: #26c6da;
+}
+#seis{
+    background-color: #26a69a;
+}
+.icono{
+    display: block;
+    margin:50px auto;
+    background-color: rgba(255,255,255,0.15);
+    width:100px;
+    padding:20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    transition: box-shadow .4s;
+}
+.texto{
+  font-size: 1.5em;
+  color:#fff;
+  text-align: center;
+  opacity: 0.6;
+  padding-top: 5px;
+  transition: padding-top .4s;
+}
+.contenedor:hover{
+  height: 250px;
+}
+.contenedor:hover .texto{
+  padding-top: 15px;
+  opacity: 1;
+}
+.contenedor:hover .icono{
+  box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
